@@ -1,0 +1,8 @@
+<h1>Stupid Coaching</h1>
+<p>Ask your coach anything:</p>
+<form class="simple_form search" action="/answer" method="get">
+  <div class="search-form-control form-group">
+    <input class="form-control string required" type="text" name="question" value="<%= params[:question] %>"placeholder="Which is your question?">
+    <input class="btn-flat" type="submit" value="Ask!">
+  </div>
+</form>
